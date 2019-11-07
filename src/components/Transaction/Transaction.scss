@@ -1,0 +1,24 @@
+.card {
+    padding: 24px 16px;
+
+    &__title {
+        font-weight: normal;
+        margin: 0 0 15px;
+    }
+
+    &__form {
+        display: flex;
+        // flex-direction: column;
+    }
+
+    &__input {
+        width: 300px;
+        margin: 0 10px 20px 0 !important;
+    }
+
+    &__btn {
+        width: 100px;
+        height: 36px;
+        margin: 14px 0 0 0 !important;
+    }
+}

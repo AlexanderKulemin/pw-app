@@ -1,0 +1,27 @@
+.recent-trans {
+    h4 {
+        margin: 0 0 15px;
+        font-weight: normal;
+    }
+}
+
+.list {
+    background: #fff;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+
+    &__value {
+        color: #d32f2f;
+        display: inline-block;
+        width: 100px;
+        text-align: center;
+        
+    }
+
+    &__name {
+        width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}

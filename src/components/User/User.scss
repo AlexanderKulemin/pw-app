@@ -1,0 +1,23 @@
+.user {
+    font-family: "Roboto";
+
+    &__name {
+        font-size: 32px;
+        margin: 20px 0;
+    }
+
+    &__balance {
+        span {
+            font-size: 0.6em;
+        }
+    }
+
+    &__actions {
+        display: flex;
+        margin: 0 0 20px;
+        
+        & > * {
+            margin-right: 10px !important;
+        }
+    }
+}
