@@ -30,10 +30,7 @@ const History = (props) => {
                 Name
               </TableCell>
               <TableCell align="right">
-                <TableSortLabel
-                  direction={"asc"}
-                  onClick={(_) => sortHandler("desc")}
-                >
+                <TableSortLabel direction={"asc"}>
                   Transaction amount
                 </TableSortLabel>
               </TableCell>
